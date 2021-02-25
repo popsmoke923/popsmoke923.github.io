@@ -1,0 +1,79 @@
+html {
+    font-size: 18px;
+}
+body {
+    width: 100vw;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arbutus Slab', serif;
+    letter-spacing: .1em;
+    margin: auto;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+.mainNav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 1.2rem 12rem;
+    font-family: 'Barlow';
+    font-weight: 800;
+}
+
+#hiring {
+    background: rgba(39,105,85,0.98);
+}
+
+.hiring {
+    display: block;
+    margin: 0 auto;
+    
+}
+#cyob {
+    background-image: url("images/cyobBG.png");
+    display: grid;
+    grid-template-rows: 10rem 10rem 35rem;
+    grid-template-columns:80% 20%;
+}
+.cyob{
+    grid-area: 1/1/2/2;
+    margin: auto 0 auto 47%;
+}
+.cyobSizes{
+    grid-area: 2/1/3/3;
+    margin: auto auto;
+}
+.cyobSteps{
+    grid-area: 3/1/4/3;
+    margin: auto auto;
+}
+
+.sectionHeadingGrid{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: .5rem 3.5rem .5rem;
+}
+.sectionHeadingTop{
+    grid-area: 1/1/2/2;
+    border-top: solid .12em rgb(1, 65, 1);
+    border-bottom: solid .15em rgb(1, 65, 1);
+}
+.sectionHeadingText{
+    grid-area: 2/1/3/2;
+    text-align: center;
+    color: #00604C;
+    
+}
+.sectionHeadingBottom{
+    grid-area: 3/1/4/2;
+    border-top: solid .12em rgb(1, 65, 1);
+    border-bottom: solid .15em rgb(1, 65, 1);
+}
